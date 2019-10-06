@@ -2,11 +2,23 @@
 #include "Doodlebug.h"
 
 
-Doodlebug::Doodlebug()
+ImanSimulation::Doodlebug::Doodlebug() : Organism() {
+
+}
+
+void ImanSimulation::Doodlebug::move()
+{
+}
+
+void ImanSimulation::Doodlebug::breed()
+{
+}
+
+void ImanSimulation::Doodlebug::starve()
 {
 }
 
 
-Doodlebug::~Doodlebug()
+ImanSimulation::Doodlebug::~Doodlebug()
 {
 }
