@@ -2,16 +2,17 @@
 //
 
 #include "pch.h"
+#include <time.h>
 #include "World.h"
 
 using ImanSimulation::World;
 
 int main()
 {
-	World bugs;
 
-	bugs.display();
+	World bugs(time(NULL));
 
+	bugs.simulateOneStep();
 
 }
 
